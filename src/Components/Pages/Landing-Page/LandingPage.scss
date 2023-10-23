@@ -1,0 +1,150 @@
+@import '../../../main.scss';
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+.main{
+  overflow: hidden;
+  .hero{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 20px 60px;
+    width: 100%;
+    @include mobile-8{
+      display: grid;
+      justify-items: center;
+      width: 80%;
+    }
+    .hero-text{
+      width: 40%;
+      @include mobile-8{
+        width: 100%;
+      }
+      h1{
+        font-family: Helvetica-bold;
+        font-size: 40px;
+        font-weight: 700px;
+        text-transform: capitalize;
+        span{
+          color: #5DBA47;
+        }
+      }
+      p{
+        font-family: Helvetica-light;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      .download-btns{
+        display: flex;
+        gap: 5px;
+        img{
+          width: 40%;
+          @include mobile-8{
+            width: 100%;
+          }
+        }
+        @include mobile-8{
+          display: grid;
+        }
+      }
+    }
+    .hero-img{
+      width: 60%;
+      img{
+        width: 80%;
+      }
+      @include mobile-6{
+        width: 100%;
+      }
+    }
+  }
+  .section-one{
+    h2{
+      text-align: center;
+    }
+    .section-one-instructions{
+      display: flex;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-around;
+      img{
+        width: 444px;
+        @include mobile-6{
+          width: 100%;
+        }
+      }
+      .section-one-text{
+        width: 30%;
+        p{
+          border: 2px solid #8B4513;
+          padding: 20px 10px;
+          border-radius: 12px;
+        }
+        @include mobile-6{
+          width: 100%;
+        }
+      }
+      @include mobile-6{
+        display: grid;
+        justify-items: center;
+        width: 80%;
+      }
+    }
+  }
+  .section-two{
+    .section-two-header{
+      text-align: center;
+    }
+    .carousel{
+      display: flex;
+      justify-content: center;
+      .carousel-card{
+        width: 20%;
+        text-align: center;
+        line-height: 25px;
+        padding: 20px 10px;
+        margin-top: 30px;
+        @include mobile-6{
+          width: 100%;
+        }
+      }
+      .carousel-card:hover{
+        box-shadow: 0px 8px 16px 0px rgba(18, 18, 18, 0.15);
+      }
+      @include mobile-6{
+        display: grid;
+        justify-items: center;
+      }
+    }
+    @include mobile-6{
+      padding: 0 20px;
+    }
+  }
+  .section-three{
+    margin-top: 20px;
+    .section-three-header{
+      text-align: center;
+      @include mobile-6{
+        padding: 0 20px;
+      }
+    }
+    .faq-section{
+      width: 40%;
+      margin: 50px auto;
+      .faq{
+        display: flex;
+        @include mobile-6{
+          svg{
+            width: 30%;
+          }
+        }
+      }
+      @include mobile-6{
+        width: 80%;
+      }
+    }
+    .faq-border{
+      border-bottom: 1px solid #475467;
+    }
+  }
+}

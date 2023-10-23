@@ -1,0 +1,77 @@
+@import '../../main.scss';
+
+.navbar{
+  .modal-top{
+    position: absolute;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+    @include mobile-6{
+      display: block;
+    }
+    .modal{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      svg{
+        font-size: 20px;
+      }
+    }
+    .modal-pages{
+      padding: 0 30px;
+      p{
+        color: #475467;
+        font-size: 20px;
+      }
+      button{
+      padding: 10px 0;
+      width: 100%;
+      font-family: Avenir;
+      font-weight: 500;
+      font-size: 15px;
+      background-color: #FF6347;
+      color: white;
+      border: 1px solid #FF5536;
+      border-radius: 8px;
+      }
+    }
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-family: Avenir;
+    font-weight: 500px;
+    font-size: 24px;
+    .nav-sub{
+      display: flex;
+      gap: 20px;
+      @include mobile-7{
+        display: none
+      }
+    }
+    button{
+      height: 58px;
+      width: 150px;
+      font-family: Avenir;
+      font-weight: 500;
+      font-size: 15px;
+      background-color: #FF6347;
+      color: white;
+      border: 1px solid #FF5536;
+      border-radius: 8px;
+      @include mobile-7{
+        display: none
+      }
+    }
+    svg{
+     display: none;
+     @include mobile-7{
+      display: block;
+     }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+@import "../../main.scss";
+
+.footer {
+  img {
+    width: 100%;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .quick-link {
+      h6 {
+        margin-bottom: 0;
+      }
+      img {
+        width: 30px;
+      }
+      div {
+        display: flex;
+        align-items: center;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+    .contact {
+      h6 {
+        margin-bottom: 0;
+      }
+      img {
+        width: 30px;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+    @include mobile-6 {
+      display: none;
+    }
+  }
+  .footer-img {
+    position: relative;
+    margin-top: 50px;
+    img {
+      max-width: 100%;
+    }
+    img:nth-child(2) {
+      position: absolute;
+      bottom: 0;
+      right: 50px;
+      z-index: 1;
+      width: 143px;
+    }
+  }
+  
+  .footer-mobile{
+    display: none;
+    .footer-content-mobile{
+      display: flex;
+      justify-content: space-around;
+     
+      .quick-link-mobile {
+        h6 {
+          margin-bottom: 0;
+        }
+        img {
+          width: 30px;
+        }
+        div {
+          display: flex;
+          align-items: center;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      .contact-mobile {
+        h6 {
+          margin-bottom: 0;
+        }
+        img {
+          width: 30px;
+        }
+        div {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .socials-mobile{
+      padding: 0 50px;
+      img{
+        width: 30px;
+      }
+      h6{
+        margin-bottom: 0;
+      }
+      .socials-icons{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+      }
+    }
+    .footer-logo-mobile{
+      width: 150px;
+      margin-top: 30px;
+      padding: 0 20px;
+    }
+    @include mobile-6{
+      display: block;
+    }
+  }
+}
