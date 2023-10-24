@@ -16,7 +16,7 @@ export default function Footer() {
       <img src={footerImg} />
       <div className="footer-content">
         <div>
-          <img src={logo} />
+          <img src={logo} className="logo"/>
         </div>
         <div className="quick-link">
           <h6>Quick Link</h6>
@@ -60,15 +60,17 @@ export default function Footer() {
           <div className="quick-link-mobile">
             <h6>Quick Link</h6>
             <img src={waves} />
-            <div>
+
+            <div className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
               <p>Home</p>
             </div>
-            <div>
+
+            <div className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
               <p>About</p>
             </div>
-            <div>
+            <div className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
               <p>FAQ</p>
             </div>
