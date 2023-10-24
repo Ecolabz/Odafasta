@@ -13,7 +13,6 @@
       display: grid;
       justify-items: center;
       width: 70%;
-
     }
     .hero-text{
       width: 40%;
@@ -45,7 +44,13 @@
           }
         }
         @include mobile-6{
-          display: grid;
+          display: none;
+        }
+      }
+      .download-mobile{
+        display: none;
+        @include mobile-6{
+          display: block;
         }
       }
     }
@@ -55,13 +60,15 @@
         width: 80%;
       }
       @include mobile-6{
-        width: 100%;
+        width: 130%;
+        margin: 0 auto;
       }
     }
   }
   .section-one{
     h2{
       text-align: center;
+      padding: 0 20px;
     }
     .section-one-instructions{
       display: flex;

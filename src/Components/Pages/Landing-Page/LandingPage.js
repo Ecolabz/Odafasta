@@ -11,6 +11,8 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { AiOutlineMinusCircle } from "react-icons/ai"
 import {BsArrowRight} from "react-icons/bs"
+import gmobile from '../../../Images/googleplay.svg'
+import amobile from '../../../Images/appstore.svg'
 
 
 const handleDragStart = (e) => e.preventDefault();
@@ -39,6 +41,10 @@ export default function LandingPage() {
           <div className="download-btns">
             <img src={googlePlay} />
             <img src={appStore} />
+          </div>
+          <div className="download-mobile">
+             <img src={gmobile}/>
+             <img src={amobile}/>
           </div>
         </div>
 
