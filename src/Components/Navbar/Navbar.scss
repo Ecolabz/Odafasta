@@ -54,13 +54,16 @@
       @include mobile-7{
         display: none
       }
+      p{
+        color: #475467;
+      }
     }
     button{
       height: 58px;
       width: 150px;
       font-family: Avenir;
       font-weight: 500;
-      padding: 2px 10px;
+      padding: 2px 8px;
       font-size: 24px;
       line-height: 36px;
       background-color: #FF6347;

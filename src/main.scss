@@ -67,7 +67,7 @@ $mobile-10: 280px;
 
 @font-face {
   font-family: 'avenir';
-  src: url(././fonts/AvenirLTStd-Book.otf);
+  src: url(././fonts/Avenir-Medium.ttf);
 }
 
 @font-face {
@@ -80,6 +80,12 @@ $mobile-10: 280px;
   src: url(././fonts/HelveticaNeueLight.ttf);
 }
 
+@font-face {
+  font-family: 'helvetica-medium';
+  src: url(././fonts/HelveticaNeueLight.ttf);
+}
+
+
 @mixin Helvetica-bold{
   font-family: 'helvetica-bold';
 }
@@ -90,4 +96,8 @@ $mobile-10: 280px;
 
 @mixin Helvetica-light{
   font-family: 'helvetica-light'
+}
+
+@mixin Helvetica-mid{
+  font-family: 'helvetica-medium'
 }

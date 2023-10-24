@@ -9,6 +9,7 @@ import { IoIosMail } from "react-icons/io";
 import waves from "../../Images/waves.svg";
 import footerWaves from "../../Images/foooterwaves.svg";
 import leaf from "../../Images/Mask group.svg";
+import {IoIosArrowForward} from "react-icons/io"
 
 export default function Footer() {
   return (
@@ -16,20 +17,20 @@ export default function Footer() {
       <img src={footerImg} />
       <div className="footer-content">
         <div>
-          <img src={logo} className="logo"/>
+          <img src={logo} className="logo" />
         </div>
         <div className="quick-link">
           <h6>Quick Link</h6>
           <img src={waves} />
-          <div>
+          <div className="icon">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
             <p>Home</p>
           </div>
-          <div>
+          <div className="icon">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
             <p>About</p>
           </div>
-          <div>
+          <div className="icon">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
             <p>FAQ</p>
           </div>
@@ -38,19 +39,22 @@ export default function Footer() {
         <div className="contact">
           <h6>Contact</h6>
           <img src={waves} />
-          <div>
+          <div className="icon">
             <IoIosMail color="#FF6347" />
             <p>hello@odafata.com</p>
           </div>
-          <h6>Follow us on Social Media</h6>
-          <img src={waves} />
-          <div className="socials">
-            <a>
-              <img src={facebook} />
-            </a>
-            <a>
-              <img src={twitter} />
-            </a>
+
+          <div className="soc">
+            <h6>Follow us on Social Media</h6>
+            <img src={waves} />
+            <div className="socials">
+              <a>
+                <img src={facebook} />
+              </a>
+              <a>
+                <img src={twitter} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -79,7 +83,7 @@ export default function Footer() {
           <div className="contact-mobile">
             <h6>Contact</h6>
             <img src={waves} />
-            <div>
+            <div className="icon">
               <IoIosMail color="#FF6347" />
               <p>hello@odafata.com</p>
             </div>
