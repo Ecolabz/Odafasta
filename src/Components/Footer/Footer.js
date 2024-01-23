@@ -9,19 +9,19 @@ import { IoIosMail } from "react-icons/io";
 import waves from "../../Images/waves.svg";
 import footerWaves from "../../Images/foooterwaves.svg";
 import leaf from "../../Images/Mask group.svg";
-import {IoIosArrowForward} from "react-icons/io"
+// import {IoIosArrowForward} from "react-icons/io"
 
 export default function Footer() {
   return (
     <div className="footer">
-      <img src={footerImg} />
+      <img src={footerImg} alt="" />
       <div className="footer-content">
         <div>
-          <img src={logo} className="logo" />
+          <img src={logo} alt="" className="logo" />
         </div>
         <div className="quick-link">
           <h6>Quick Link</h6>
-          <img src={waves} />
+          <img src={waves} alt="" />
           <div className="icon">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
             <p>Home</p>
@@ -38,21 +38,24 @@ export default function Footer() {
 
         <div className="contact">
           <h6>Contact</h6>
-          <img src={waves} />
-          <div className="icon">
-            <IoIosMail color="#FF6347" />
-            <p>hello@odafata.com</p>
-          </div>
+          <img src={waves} alt="" />
+          {/* <div className="icon"> */}
+          <a href="mailto:odafastaa@gmail.com" className="icon">
+              {" "}
+              <IoIosMail color="#FF6347" />
+              <p>hello@odafata.com</p>
+            </a>
+          {/* </div> */}
 
           <div className="soc">
             <h6>Follow us on Social Media</h6>
-            <img src={waves} />
+            <img src={waves} alt="" />
             <div className="socials">
               <a>
-                <img src={facebook} />
+                <img src={facebook} alt="" />
               </a>
               <a>
-                <img src={twitter} />
+                <img src={twitter} alt="" />
               </a>
             </div>
           </div>
@@ -63,7 +66,7 @@ export default function Footer() {
         <div className="footer-content-mobile">
           <div className="quick-link-mobile">
             <h6>Quick Link</h6>
-            <img src={waves} />
+            <img src={waves} alt="" />
 
             <div className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
@@ -82,34 +85,37 @@ export default function Footer() {
 
           <div className="contact-mobile">
             <h6>Contact</h6>
-            <img src={waves} />
-            <div className="icon">
+            <img src={waves} alt="" />
+            {/* <div className="icon"> */}
+            <a href="mailto:odafastaa@gmail.com" className="icon">
+              {" "}
               <IoIosMail color="#FF6347" />
               <p>hello@odafata.com</p>
-            </div>
+            </a>
+            {/* </div> */}
           </div>
         </div>
 
         <div className="socials-mobile">
           <h6>Follow us on Social Media</h6>
-          <img src={waves} />
+          <img src={waves} alt="" />
           <div className="socials-icons">
             <a>
-              <img src={facebook} />
+              <img src={facebook} alt="" />
             </a>
             <a>
-              <img src={twitter} />
+              <img src={twitter} alt="" />
             </a>
           </div>
         </div>
         <div className="footer-logo-mobile">
-          <img src={logo} />
+          <img src={logo} alt="" />
         </div>
       </div>
 
       <div className="footer-img">
-        <img src={footerWaves} />
-        <img src={leaf} />
+        <img src={footerWaves} alt="" />
+        <img src={leaf} alt="" />
       </div>
     </div>
   );

@@ -15,24 +15,32 @@ export default function Navbar() {
       {menuOpen && (
         <div className="modal-top">
           <div className="modal">
-            <img src={logo} />
-            <IoMdClose onClick={toggleMenu}/>
+            <img src={logo} alt="" />
+            <IoMdClose onClick={toggleMenu} />
           </div>
           <div className="modal-pages">
-          <p>About</p>
-          <p>FAQ</p>
-          <button>Get started</button>
+            <a href="#about">
+              <p>About</p>
+            </a>
+            <a href="#faq">
+              <p>FAQ</p>
+            </a>
+            <button>Get started</button>
           </div>
         </div>
       )}
       <div className="nav">
-        <img src={logo} />
+        <img src={logo} alt="" />
         <div className="nav-sub">
-          <p>About</p>
-          <p>FAQ</p>
+          <a href="#about">
+            <p>About</p>
+          </a>
+          <a href="#faq">
+            <p>FAQ</p>
+          </a>
         </div>
         <button>Get Started</button>
-        <RxHamburgerMenu onClick={toggleMenu}/>
+        <RxHamburgerMenu onClick={toggleMenu} />
       </div>
     </div>
   );

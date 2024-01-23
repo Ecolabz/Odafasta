@@ -67,6 +67,22 @@
           display: block;
         }
       }
+      button{
+        height: 58px;
+        width: 150px;
+        font-family: Avenir;
+        font-weight: 500;
+        padding: 2px 8px;
+        font-size: 24px;
+        line-height: 36px;
+        background-color: #FF6347;
+        color: white;
+        border: 1px solid #FF5536;
+        border-radius: 8px;
+        // @include mobile-7{
+        //   display: none
+        // }
+      }
     }
     .hero-img{
       width: 60%;
