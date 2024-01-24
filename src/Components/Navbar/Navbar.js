@@ -25,7 +25,7 @@ export default function Navbar() {
             <a href="#faq">
               <p>FAQ</p>
             </a>
-            <button>Get started</button>
+            <a href='http://odafasta.tookan.in' target=''><button>Get Started</button></a>
           </div>
         </div>
       )}
@@ -39,7 +39,7 @@ export default function Navbar() {
             <p>FAQ</p>
           </a>
         </div>
-        <button>Get Started</button>
+        <a href='http://odafasta.tookan.in' target=''><button>Get Started</button></a>
         <RxHamburgerMenu onClick={toggleMenu} />
       </div>
     </div>
