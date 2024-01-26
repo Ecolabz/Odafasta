@@ -13,48 +13,48 @@ import leaf from "../../Images/Mask group.svg";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <img src={footerImg} alt="" />
       <div className="footer-content">
-        <div>
+        <div data-aos="fade-right">
           <img src={logo} alt="" className="logo" />
         </div>
-        <div className="quick-link">
-          <h6>Quick Link</h6>
-          <img src={waves} alt="" />
-          <div className="icon">
+        <div data-aos="fade-up" className="quick-link">
+          <h6 data-aos="fade-up">Quick Link</h6>
+          <img data-aos="fade-up" src={waves} alt="" />
+          <div className="icon" data-aos="fade-up">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
             <p>Home</p>
           </div>
-          <div className="icon">
+          <div className="icon" data-aos="fade-up">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
             <p>About</p>
           </div>
-          <div className="icon">
+          <div className="icon" data-aos="fade-up">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
             <p>FAQ</p>
           </div>
         </div>
 
-        <div className="contact">
-          <h6>Contact</h6>
-          <img src={waves} alt="" />
+        <div className="contact" data-aos="fade-left">
+          <h6 data-aos="fade-up">Contact</h6>
+          <img data-aos="fade-up" src={waves} alt="" />
           {/* <div className="icon"> */}
-          <a href="mailto:odafastaa@gmail.com" className="icon">
+          <a data-aos="fade-up" href="mailto:odafastaa@gmail.com" className="icon">
               {" "}
               <IoIosMail color="#FF6347" />
               <p>hello@odafata.com</p>
             </a>
           {/* </div> */}
 
-          <div className="soc">
+          <div className="soc" data-aos="fade-left">
             <h6>Follow us on Social Media</h6>
             <img src={waves} alt="" />
-            <div className="socials">
-              <a>
+            <div className="socials" data-aos="fade-up">
+              <a href="/" data-aos="fade-up">
                 <img src={facebook} alt="" />
               </a>
-              <a>
+              <a href="/" data-aos="fade-up">
                 <img src={twitter} alt="" />
               </a>
             </div>
@@ -64,51 +64,51 @@ export default function Footer() {
 
       <div className="footer-mobile">
         <div className="footer-content-mobile">
-          <div className="quick-link-mobile">
+          <div data-aos="fade-right" className="quick-link-mobile">
             <h6>Quick Link</h6>
             <img src={waves} alt="" />
 
-            <div className="icon">
+            <div data-aos="fade-up" className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
               <p>Home</p>
             </div>
 
-            <div className="icon">
+            <div data-aos="fade-up" className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
               <p>About</p>
             </div>
-            <div className="icon">
+            <div data-aos="fade-up" className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
               <p>FAQ</p>
             </div>
           </div>
 
-          <div className="contact-mobile">
-            <h6>Contact</h6>
-            <img src={waves} alt="" />
+          <div data-aos="fade-left" className="contact-mobile">
+            <h6 data-aos="fade-up">Contact</h6>
+            <img data-aos="fade-up" src={waves} alt="" />
             {/* <div className="icon"> */}
-            <a href="mailto:odafastaa@gmail.com" className="icon">
+            <a data-aos="fade-up" href="mailto:odafastaa@gmail.com" className="icon">
               {" "}
               <IoIosMail color="#FF6347" />
-              <p>hello@odafata.com</p>
+              <p data-aos="fade-up">hello@odafata.com</p>
             </a>
             {/* </div> */}
           </div>
         </div>
 
-        <div className="socials-mobile">
-          <h6>Follow us on Social Media</h6>
+        <div data-aos="fade-up" className="socials-mobile">
+          <h6 data-aos="fade-up">Follow us on Social Media</h6>
           <img src={waves} alt="" />
-          <div className="socials-icons">
-            <a>
+          <div data-aos="fade-up" className="socials-icons">
+            <a href="/" data-aos="fade-up">
               <img src={facebook} alt="" />
             </a>
-            <a>
+            <a href="/" data-aos="fade-up">
               <img src={twitter} alt="" />
             </a>
           </div>
         </div>
-        <div className="footer-logo-mobile">
+        <div data-aos="fade-up" className="footer-logo-mobile">
           <img src={logo} alt="" />
         </div>
       </div>
@@ -117,6 +117,7 @@ export default function Footer() {
         <img src={footerWaves} alt="" />
         <img src={leaf} alt="" />
         <a href="/">Terms &#38; Conditions</a>
+      </div>
     </footer>
   );
 }
