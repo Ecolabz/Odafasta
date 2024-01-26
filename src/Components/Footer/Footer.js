@@ -24,15 +24,15 @@ export default function Footer() {
           <img data-aos="fade-up" src={waves} alt="" />
           <div className="icon" data-aos="fade-up">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
-            <p>Home</p>
+            <a href='#top'>Home</a>
           </div>
           <div className="icon" data-aos="fade-up">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
-            <p>About</p>
+            <a href='#about'>About</a>
           </div>
           <div className="icon" data-aos="fade-up">
             <MdOutlineKeyboardArrowRight color="#FF6347" />
-            <p>FAQ</p>
+            <a href='#faq'>FAQ</a>
           </div>
         </div>
 
@@ -70,16 +70,16 @@ export default function Footer() {
 
             <div data-aos="fade-up" className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
-              <p>Home</p>
+              <a href='#top'>Home</a>
             </div>
 
             <div data-aos="fade-up" className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
-              <p>About</p>
+              <a href='#about'>About</a>
             </div>
             <div data-aos="fade-up" className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
-              <p>FAQ</p>
+              <a href='#faq'>FAQ</a>
             </div>
           </div>
 
