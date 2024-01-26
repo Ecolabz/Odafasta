@@ -55,7 +55,7 @@ export default function LandingPage() {
             <img src={gmobile} />
             <img src={amobile} />
           </div> */}
-         <a href='http://odafasta.tookan.in' target=''><button>Get Started</button></a>
+         <a className="button" data-aos="fade-left" href='http://odafasta.tookan.in' target=''>Get Started</a>
         </div>
 
         <div className="hero-img">
