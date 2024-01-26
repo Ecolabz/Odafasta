@@ -83,7 +83,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div data-aos="fade-left" className="contact-mobile">
+          <div data-aos="fade-up" className="contact-mobile">
             <h6 data-aos="fade-up">Contact</h6>
             <img data-aos="fade-up" src={waves} alt="" />
             {/* <div className="icon"> */}
