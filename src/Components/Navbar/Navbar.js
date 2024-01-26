@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       {menuOpen && (
-        <div className="modal-top">
+        <div className="modal-top" id="top">
           <div className="modal">
             <img src={logo} alt="" />
             <IoMdClose onClick={toggleMenu} />
