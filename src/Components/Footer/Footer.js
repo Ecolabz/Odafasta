@@ -116,7 +116,7 @@ export default function Footer() {
       <div className="footer-img">
         <img src={footerWaves} alt="" />
         <img src={leaf} alt="" />
-      </div>
+        <a href="/">Terms &#38; Conditions</a>
     </div>
   );
 }
