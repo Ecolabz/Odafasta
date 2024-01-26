@@ -126,35 +126,31 @@ export default function LandingPage() {
         </div>
 
         <div className="faq-section">
-          <div className="faq">
-            <div>
-              <div className="faq-icon" onClick={setDropHandler}>
-                <h4>What is Odafasta</h4>
-                {!faqOne ? <AiOutlinePlusCircle /> : <AiOutlineMinusCircle />}
-              </div>
-              {faqOne && (
-                <p>
-                  Odafasta is a tech solution that combines online food and
-                  grocery delivery into a single, user-friendly app, making it
-                  easier for you to access and receive what you need. Our vision
-                  is to simplify your life, one order at a time without full
-                  ownership.
-                </p>
-              )}
+          <div data-aos="fade-up" className="faq" onClick={setDropHandler}>
+            <div className="faq-icon" >
+              <h4>What is Odafasta</h4>
+              {!faqOne ? <AiOutlinePlusCircle /> : <AiOutlineMinusCircle />}
             </div>
+            {faqOne && (
+              <p>
+                Odafasta is a tech solution that combines online food and
+                grocery delivery into a single, user-friendly app, making it
+                easier for you to access and receive what you need. Our vision
+                is to simplify your life, one order at a time without full
+                ownership.
+              </p>
+            )}
           </div>
 
           <div className="faq-border"></div>
-          <div className="faq">
-            <div>
-              <div className="faq-icon" onClick={setDropHandler2}>
-                <h4>At what locations does Odafasta deliver?</h4>
-                {!faqTwo ? <AiOutlinePlusCircle /> : <AiOutlineMinusCircle />}
-              </div>
-              {faqTwo && (
-                <p>We will be launching our services within Tanzania.</p>
-              )}
+          <div data-aos="fade-up" className="faq" onClick={setDropHandler2}>
+            <div className="faq-icon" >
+              <h4>At what locations does Odafasta deliver?</h4>
+              {!faqTwo ? <AiOutlinePlusCircle /> : <AiOutlineMinusCircle />}
             </div>
+            {faqTwo && (
+              <p>We will be launching our services within Tanzania.</p>
+            )}
           </div>
         </div>
       </div>
