@@ -37,13 +37,13 @@ export default function LandingPage() {
     <div className="main">
       <div className="hero">
         <div className="hero-text">
-          <h1>
+          <h1 data-aos="fade-up">
             Delivering
             <br /> your essentials
             <br />
             <span>right on time!</span>
           </h1>
-          <p>
+          <p data-aos="fade-up" data-aos-offset='0'>
             Experience convenience, timely orders, and cost-effectiveness with
             just a click on our app!
           </p>
@@ -58,18 +58,18 @@ export default function LandingPage() {
          <a className="button" data-aos="fade-left" href='http://odafasta.tookan.in' target=''>Get Started</a>
         </div>
 
-        <div className="hero-img">
+        <div data-aos="fade-left" className="hero-img">
           <img src={heroImg} alt="hero-Img" />
         </div>
       </div>
 
       <div className="section-one">
-        <h2>Start using Odafasta in a few simple steps</h2>
+        <h2 data-aos="fade-up">Start using Odafasta in a few simple steps</h2>
         <div className="section-one-instructions">
-          <img src={secondImg} alt="second-Img" />
-          <div className="section-one-text">
-            <p>1. Create an account with your email and phone number</p>
-            <p>
+          <img data-aos="fade-right" src={secondImg} alt="second-Img" />
+          <div data-aos="fade-left" className="section-one-text">
+            <p data-aos="fade-left">1. Create an account with your email and phone number</p>
+            <p data-aos="fade-left">
               2. Start shipping a wide range of goods from China with our
               delivery service.
             </p>
@@ -79,11 +79,11 @@ export default function LandingPage() {
 
       <div id="about" className="section-two">
         <div className="section-two-header">
-          <h2>What we Offer</h2>
-          <p>We consistently deliver outstanding service, always on time.</p>
+          <h2 data-aos="fade-up">What we Offer</h2>
+          <p data-aos="fade-up">We consistently deliver outstanding service, always on time.</p>
         </div>
         <div className="carousel">
-          <div className="carousel-card">
+          <div data-aos="fade-right" className="carousel-card">
             <img src={vector1} alt="vector1" />
             <h4>Quick Deliveries</h4>
             <p>
@@ -93,7 +93,7 @@ export default function LandingPage() {
             <BsArrowRight color="#FFD700" size={20} />
           </div>
 
-          <div className="carousel-card">
+          <div data-aos="fade-up" className="carousel-card">
             <img src={vector2} alt="" />
             <h4>Save Time</h4>
             <p>
@@ -104,7 +104,7 @@ export default function LandingPage() {
             <BsArrowRight color="#FFD700" size={20} />
           </div>
 
-          <div className="carousel-card">
+          <div data-aos="fade-left" className="carousel-card">
             <img src={vector3} alt="" />
             <h4>Great Savings, Great Variety</h4>
             <p>
@@ -118,8 +118,8 @@ export default function LandingPage() {
 
       <div id="faq" className="section-three">
         <div className="section-three-header">
-          <h2>Frequently Asked Questions</h2>
-          <p>
+          <h2 data-aos="fade-up">Frequently Asked Questions</h2>
+          <p data-aos="fade-up">
             We've collated answers to some questions you might have and we hope
             this helps you understand our service
           </p>
