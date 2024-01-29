@@ -1,4 +1,11 @@
-$mobile-1: 1100px;
+$xs: '400px'; // for small screen mobile
+$sm: '600px'; // for mobile screen
+$md: '900px'; // for tablets
+$lg: '1280px'; // for laptops
+$xl: '1440px'; // for desktop / monitors
+$xxl: '1920px'; // for big screens
+
+/* $mobile-1: 1100px;
 $mobile-2: 1024px;
 $mobile-3: 900px;
 $mobile-4: 800px;
@@ -7,55 +14,34 @@ $mobile-6: 600px;
 $mobile-7: 550px;
 $mobile-8: 420px;
 $mobile-9: 320px;
-$mobile-10: 280px;
-
-@mixin mobile-1 {
-  @media (max-width: $mobile-1) {
+$mobile-10: 280px; */
+@mixin xxl {
+  @media (max-width: $xxl) {
     @content;
   }
 }
-@mixin mobile-2 {
-  @media (max-width: $mobile-2) {
+@mixin xl {
+  @media (max-width: $xl) {
     @content;
   }
 }
-@mixin mobile-3 {
-  @media (max-width: $mobile-3) {
+@mixin lg {
+  @media (max-width: $lg) {
     @content;
   }
 }
-@mixin mobile-4 {
-  @media (max-width: $mobile-4) {
+@mixin md {
+  @media (max-width: $md) {
     @content;
   }
 }
-@mixin mobile-5 {
-  @media (max-width: $mobile-5) {
+@mixin sm {
+  @media (max-width: $sm) {
     @content;
   }
 }
-@mixin mobile-6 {
-  @media (max-width: $mobile-6) {
-    @content;
-  }
-}
-@mixin mobile-7 {
-  @media (max-width: $mobile-7) {
-    @content;
-  }
-}
-@mixin mobile-8 {
-  @media (max-width: $mobile-8) {
-    @content;
-  }
-}
-@mixin mobile-9 {
-  @media (max-width: $mobile-9) {
-    @content;
-  }
-}
-@mixin mobile-10 {
-  @media (max-width: $mobile-10) {
+@mixin xs {
+  @media (max-width: $xs) {
     @content;
   }
 }

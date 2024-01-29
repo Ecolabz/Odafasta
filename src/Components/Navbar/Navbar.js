@@ -13,16 +13,16 @@ export default function Navbar() {
   return (
     <div className="navbar">
       {menuOpen && (
-        <div className="modal-top">
+        <div className="modal-top" id="top">
           <div className="modal">
             <img src={logo} alt="" />
             <IoMdClose onClick={toggleMenu} />
           </div>
           <div className="modal-pages">
-            <a href="#about">
+            <a href="#about" onClick={toggleMenu}>
               <p>About</p>
             </a>
-            <a href="#faq">
+            <a href="#faq" onClick={toggleMenu}>
               <p>FAQ</p>
             </a>
             <a href='http://odafasta.tookan.in' target=''><button>Get Started</button></a>
