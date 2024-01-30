@@ -62,7 +62,6 @@ export default function LandingPage() {
           <img src={heroImg} alt="hero-Img" />
         </div>
       </div>
-
       <div className="section-one">
         <h2 data-aos="fade-up">Start using Odafasta in a few simple steps</h2>
         <div className="section-one-instructions">
@@ -76,7 +75,6 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-
       <div id="about" className="section-two">
         <div className="section-two-header">
           <h2 data-aos="fade-up">What we Offer</h2>
@@ -92,7 +90,6 @@ export default function LandingPage() {
             </p>
             <BsArrowRight color="#FFD700" size={20} />
           </div>
-
           <div data-aos="fade-up" className="carousel-card">
             <img src={vector2} alt="" />
             <h4>Save Time</h4>
@@ -103,7 +100,6 @@ export default function LandingPage() {
             </p>
             <BsArrowRight color="#FFD700" size={20} />
           </div>
-
           <div data-aos="fade-left" className="carousel-card">
             <img src={vector3} alt="" />
             <h4>Great Savings, Great Variety</h4>
@@ -115,7 +111,6 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-
       <div id="faq" className="section-three">
         <div className="section-three-header">
           <h2 data-aos="fade-up">Frequently Asked Questions</h2>
@@ -124,7 +119,6 @@ export default function LandingPage() {
             this helps you understand our service
           </p>
         </div>
-
         <div className="faq-section">
           <div data-aos="fade-up" className="faq" onClick={setDropHandler}>
             <div className="faq-icon" >
@@ -141,7 +135,6 @@ export default function LandingPage() {
               </p>
             )}
           </div>
-
           <div className="faq-border"></div>
           <div data-aos="fade-up" className="faq" onClick={setDropHandler2}>
             <div className="faq-icon" >
