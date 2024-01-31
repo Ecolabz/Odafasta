@@ -43,7 +43,7 @@ export default function Footer() {
           <a data-aos="fade-up" href="mailto:odafastaa@gmail.com" className="icon">
               {" "}
               <IoIosMail color="#FF6347" />
-              <p>hello@odafata.com</p>
+              <p>odafastaa@gmail.com</p>
             </a>
           {/* </div> */}
 
@@ -87,7 +87,7 @@ export default function Footer() {
             <a data-aos="fade-up" href="mailto:odafastaa@gmail.com" className="icon">
               {" "}
               <IoIosMail color="#FF6347" />
-              <p data-aos="fade-up">hello@odafata.com</p>
+              <p data-aos="fade-up">odafastaa@gmail.com</p>
             </a>
             {/* </div> */}
           </div>
