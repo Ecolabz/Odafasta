@@ -43,7 +43,7 @@ export default function Footer() {
           <a data-aos="fade-up" href="mailto:odafastaa@gmail.com" className="icon">
               {" "}
               <IoIosMail color="#FF6347" />
-              <p>hello@odafata.com</p>
+              <p>odafastaa@gmail.com</p>
             </a>
           {/* </div> */}
 
@@ -67,12 +67,10 @@ export default function Footer() {
           <div data-aos="fade-right" className="quick-link-mobile">
             <h6>Quick Link</h6>
             <img src={waves} alt="" />
-
             <div data-aos="fade-up" className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
               <a href='#top'>Home</a>
             </div>
-
             <div data-aos="fade-up" className="icon">
               <MdOutlineKeyboardArrowRight color="#FF6347" />
               <a href='#about'>About</a>
@@ -82,7 +80,6 @@ export default function Footer() {
               <a href='#faq'>FAQ</a>
             </div>
           </div>
-
           <div data-aos="fade-up" className="contact-mobile">
             <h6 data-aos="fade-up">Contact</h6>
             <img data-aos="fade-up" src={waves} alt="" />
@@ -90,12 +87,11 @@ export default function Footer() {
             <a data-aos="fade-up" href="mailto:odafastaa@gmail.com" className="icon">
               {" "}
               <IoIosMail color="#FF6347" />
-              <p data-aos="fade-up">hello@odafata.com</p>
+              <p data-aos="fade-up">odafastaa@gmail.com</p>
             </a>
             {/* </div> */}
           </div>
         </div>
-
         <div data-aos="fade-up" className="socials-mobile">
           <h6 data-aos="fade-up">Follow us on Social Media</h6>
           <img src={waves} alt="" />
@@ -112,7 +108,6 @@ export default function Footer() {
           <img src={logo} alt="" />
         </div>
       </div>
-
       <div className="footer-img">
         <img src={footerWaves} alt="" />
         <img src={leaf} alt="" />
